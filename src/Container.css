@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&family=Kumbh+Sans:wght@400;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+:root {
+  --Tomato: hsl(4, 100%, 67%);
+  --Dark-Slate-Grey: hsl(234, 29%, 20%);
+  --Charcoal-Grey: hsl(235, 18%, 26%);
+  --Grey: hsl(231, 7%, 60%);
+  --White: hsl(0, 0%, 100%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+
+
+
+.Container-text {
+  margin-top: 70px;
+  line-height: 50px;
+}
+
+.Content-p > p {
+  display: flex;
+  color: hsl(234, 29%, 20%);
+}
+
+.Content-p > p > img {
+  padding-right: 10px;
+}
+
+h1 {
+  font-size: 3rem;
+  color: hsl(234, 29%, 20%);
+}
+
+.svg_img {
+  margin: 20px -25px 20px 15px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 365px;
+  line-height: 63px;
+  padding: 0px;
+  height: -8px;
+  margin-top: -2px;
+}
+
+form > input {
+  margin-top: 5px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+form > button {
+  margin-top: 30px;
+  cursor: pointer;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  background-color: hsl(234, 29%, 20%);
+  color: white;
+}
+
+form > button:hover {
+  background-color: hsl(4, 100%, 67%);
+  color: white;
+}
+
+form > p {
+  font-weight: 700;
+  color: hsl(234, 29%, 20%);
+}
+.Header {
+  width: 403px;
+}
+
+.Header h1 {
+  margin-bottom: 30px;
+}
+
+.mobile {
+  display: none;
+}
+
+.email-title {
+  padding: 20px;
+  cursor: pointer;
+}
+
+.Header p {
+  color: hsl(234, 29%, 20%);
+  line-height: 30px;
+}
+
+.invalid {
+  border-color: red;
+  color: red;
+}
+
+@media (max-width: 767px) {
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    display: flex;
+  }
+
+  .Container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: 70px 120px 70px 120px;
+    border-radius: 21px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 30rem;
+    padding-left: 3rem;
+  }
+
+  picture > .mobile {
+    
+  }
+}
+
+
+@media (min-width: 1025px) {
+  body {
+    background-color: hsl(235, 18%, 26%);
+  }
+
+  .Container {
+    display: flex;
+    justify-content: center;
+    margin: 100px 220px 100px 220px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 21px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  
+
+  /* Add your desktop-specific styles here */
+}
