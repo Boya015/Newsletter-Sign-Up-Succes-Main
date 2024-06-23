@@ -4,16 +4,15 @@ import Content from "./Content";
 import NewsletterForm from "./NewsletterForm";
 import ImagesSvg from "./ImagesSvg";
 
-
 const Container = () => {
   return (
     <div className="Container">
+      <ImagesSvg />
       <div className="Container-text">
         <Header />
         <Content />
         <NewsletterForm />
       </div>
-      <ImagesSvg />
     </div>
   );
 };

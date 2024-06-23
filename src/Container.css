@@ -115,16 +115,22 @@ form > p {
     display: flex;
     flex-direction: column;
     background-color: white;
-    margin: 70px 120px 70px 120px;
-    border-radius: 21px;
     padding-top: 30px;
     padding-bottom: 30px;
     width: 30rem;
-    padding-left: 3rem;
+  }
+
+  .Container-text {
+    padding: 0px 0px 0px 20px;
+  }
+
+  picture {
+    margin-bottom: -3rem;
+    margin-top: -2rem;
   }
 
   picture > .mobile {
-    
+    object-fit: cover;
   }
 }
 
@@ -142,6 +148,7 @@ form > p {
     border-radius: 21px;
     padding-top: 30px;
     padding-bottom: 30px;
+    flex-direction: row-reverse;
   }
   
 
